@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craftsy | Home</title>
+    <script src="https://kit.fontawesome.com/ae7c764a16.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="home">
+ <header class="home__header">
+    <div class="home__header__logo">
+        <img src="/images/logo.png" alt="">
+    </div>
+    <nav class="home__header__nav--search">
+        <form action="" >
+            <div class="form__box__search">
+                <input type="text" placeholder="Encontrá lo que necesitas.." name="keywords"><button type="submit" class="form__button--search"><i class="fa fa-search"></i></button>
+            </div>
+        </form>
+    </nav>
+    <button class="home__header__burger" onclick="document.querySelector('.home__header__nav--navigation').classList.toggle('home__show'); document.querySelector('.home__header__nav--user').classList.toggle('home__show')"><i class="fa fa-bars"></i> Menu </button>
+    <ul class="home__header__nav--navigation">
+        <li><a href="">Computadoras</a></li>
+        <li><a href="">Tablets</a></li>
+        <li><a href="">Celulares</a></li>
+    </ul>
+    <ul class="home__header__nav--user">
+        <li><a href="/login">Login</a></li>
+        <li><a href="/register">Registro</a></li>
+    </ul>
+ </header>
+ <main class="home__main">
+    <section class="home__main__section--products general__main__section">
+        <article class="home__main__section__article--product">
+            <figure>
+                <img src="/images/img-phone-01.jpg" alt="">
+            </figure>
+            <h2>Nombre del producto</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quia, eius autem veniam accusantium maiores doloribus aliquid possimus quae debitis?</p>
+            <a class="general__button__product " href="/product-detail">ver más</a>
+        </article>
+        <article class="home__main__section__article--product">
+            <figure>
+                <img src="/images/img-phone-02.jpg" alt="">
+            </figure>
+            <h2>Nombre del producto</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quia, eius autem veniam accusantium maiores doloribus aliquid possimus quae debitis?</p>
+            <a class="general__button__product " href="/product-detail">ver más</a>
+        </article>
+        <article class="home__main__section__article--product">
+            <figure>
+                <img src="/images/img-phone-03.jpg" alt="">
+            </figure>
+            <h2>Nombre del producto</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quia, eius autem veniam accusantium maiores doloribus aliquid possimus quae debitis?</p>
+            <a class="general__button__product " href="/product-detail">ver más</a>
+        </article>
+        <article class="home__main__section__article--product">
+            <figure>
+                <img src="/images/img-phone-01.jpg" alt="">
+            </figure>
+            <h2>Nombre del producto</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quia, eius autem veniam accusantium maiores doloribus aliquid possimus quae debitis?</p>
+            <a class="general__button__product " href="/product-detail">ver más</a>
+        </article>
+        <article class="home__main__section__article--product">
+            <figure>
+                <img src="/images/img-phone-02.jpg" alt="">
+            </figure>
+            <h2>Nombre del producto</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quia, eius autem veniam accusantium maiores doloribus aliquid possimus quae debitis?</p>
+            <a class="general__button__product " href="/product-detail">ver más</a>
+        </article>
+        <article class="home__main__section__article--product">
+            <figure>
+                <img src="/images/img-phone-03.jpg" alt="">
+            </figure>
+            <h2>Nombre del producto</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi quia, eius autem veniam accusantium maiores doloribus aliquid possimus quae debitis?</p>
+            <a class="general__button__product " href="/product-detail">ver más</a>
+        </article>
+    </section>
+    <aside class="home__main__aside">
+        <section class="home__main__aside__section--tutoriales">
+            <h2>Tutoriales</h2>
+            <article>
+                <img src="/images/aside-01.jpg" alt="">
+                <p>Título del tutorial de reparación</p>
+            </article>
+            <article>
+                <img src="/images/aside-02.jpg" alt="">
+                <p>Título del tutorial de reparación</p>
+            </article>
+            <article>
+                <img src="/images/aside-03.jpg" alt="">
+                <p>Título del tutorial de reparación</p>
+            </article>
+            <article>
+                <img src="/images/aside-04.jpg" alt="">
+                <p>Título del tutorial de reparación</p>
+            </article>
+        </section>
+        <section class="home__main__aside__section--publicidad">
+            <h2>Publicidad</h2>
+            <article>
+                    <img src="/images/ad-01.jpg" alt="">
+                    <img src="/images/ad-02.jpg" alt="">
+            </article>
+           
+        </section>
+    </aside>
+ </main>
+</body>
+</html>
